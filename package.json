@@ -1,0 +1,41 @@
+{
+  "name": "@tinijs/cli-expansion-starter",
+  "version": "0.18.0-pre",
+  "description": "The CLI expansion starter.",
+  "author": "Nhan Lam",
+  "homepage": "https://tinijs.dev",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./dist/public-api.js",
+    "./cli": "./dist/cli/public-api.js",
+    "./cli-expansion": "./dist/cli/expand.js"
+  },
+  "files": [
+    "dist",
+    "!**/*.spec.*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "gts lint",
+    "fix": "gts fix",
+    "release": "changelogen --release --push"
+  },
+  "dependencies": {
+    "@tinijs/cli": "^0.17.0",
+    "@tinijs/project": "^0.17.0"
+  },
+  "devDependencies": {
+    "changelogen": "^0.5.5",
+    "gts": "^5.3.0",
+    "typescript": "~5.4.5",
+    "vitest": "^1.5.2"
+  }
+}
