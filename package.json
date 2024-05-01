@@ -29,8 +29,8 @@
     "release": "changelogen --release --push"
   },
   "dependencies": {
-    "@tinijs/cli": "^0.17.0",
-    "@tinijs/project": "^0.17.0"
+    "@tinijs/cli": "^0.18.0",
+    "@tinijs/project": "^0.18.0"
   },
   "devDependencies": {
     "changelogen": "^0.5.5",
