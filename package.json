@@ -1,6 +1,6 @@
 {
   "name": "@tinijs/cli-expansion-starter",
-  "version": "0.20.0-pre",
+  "version": "0.20.0",
   "description": "The CLI expansion starter.",
   "author": "Nhan Lam",
   "homepage": "https://tinijs.dev",
